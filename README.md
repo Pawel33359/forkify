@@ -4,5 +4,5 @@ To this project I added on my own: page number on search, validating ingredients
 ## live demo
 https://forkify-60e04.web.app/
 ## To run this project
-install dependencies: npm install
+install dependencies: npm install \
 start project: npm start
