@@ -8,9 +8,7 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 
-import { render } from 'sass';
 import 'core-js/stable';
-import regeneratorRuntime from 'regenerator-runtime';
 
 ///////////////////////////////////////
 

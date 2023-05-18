@@ -79,21 +79,3 @@ body {
   color: orangered;
   font-size: medium;
 }
-
-/*INGREDIENTS OPTION BUTTONS*/
-.btn__ingredient {
-  display: inline-block;
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  height: 4.5rem;
-  width: 150px;
-  margin-right: 10%;
-  color: white;
-}
-.add__ingredient {
-  background-color: rgb(35, 145, 35);
-}
-.delete__ingredient {
-  background-color: rgb(216, 50, 50);
-}

@@ -15,9 +15,12 @@
 
   // display: flex;
   // flex-flow: row wrap;
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
   width: 100%;
+  gap: 1rem;
+
+  position: relative;
 
   &::after {
     content: '';
@@ -27,12 +30,12 @@
 
   &__btn {
     &--prev {
-      // float: left;
+      float: left;
       width: 30%;
       text-align: left;
     }
     &--next {
-      // float: right;
+      float: right;
       width: 30%;
       text-align: right;
     }
@@ -55,9 +58,11 @@
 .pagination__numbers {
   list-style: none;
   text-align: center;
-  width: 100%;
-  font-size: medium;
-  position: static;
+  font-size: 1.5rem;
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, 140%);
 }
 
 .pagination__number--single {

@@ -211,3 +211,24 @@
     font-weight: 600;
   }
 }
+
+/*INGREDIENTS OPTION BUTTONS*/
+.btn__ingredient {
+  display: inline-block;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1.25rem 2.25rem;
+  text-decoration: none;
+  margin-right: 10%;
+  color: white;
+}
+.add__ingredient {
+  // background-color: rgb(35, 145, 35);
+  background-image: linear-gradient(to right bottom, #c0eb75, #2f9e44);
+}
+.delete__ingredient {
+  background-image: linear-gradient(to right bottom, #fd7e14, #c92a2a);
+}

@@ -15,6 +15,8 @@ class PaginationView extends View {
         e.target.className === 'pagination__number--single'
           ? e.target
           : e.target.closest('.btn--inline');
+
+      console.log(e.target);
       if (!click) return;
 
       const goToPage = +click.dataset.goto;
